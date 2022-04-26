@@ -449,6 +449,13 @@ header .navbar #toggle-button:checked + .line .bottom {
 
 /* MEDIA */
 @media screen and (max-width: 991px) {
+  .common-contents {
+    padding: 24px 16px;
+    border-bottom: 1px solid #000;
+  }
+  .common-contents h1 {
+    font-size: 48px;
+  }
   header {
     height: 88px;
   }
@@ -505,11 +512,23 @@ header .navbar #toggle-button:checked + .line .bottom {
   .stories-area {
     flex-direction: column;
   }
+  .stories-area .stories-item .contents-box h6 {
+    font-size: 16px;
+  }
+  .stories-area .stories-item .contents-box .authorship {
+    font-size: 14px;
+  }
   .article-area {
     flex-direction: column;
   }
   .article-area .article-item {
     height: auto;
+  }
+  .article-area .article-item .contents-box h6 {
+    font-size: 16px;
+  }
+  .article-area .article-item .contents-box .derc {
+    font-size: 14px;
   }
   .archive-area {
     flex-direction: column;
@@ -534,7 +553,7 @@ header .navbar #toggle-button:checked + .line .bottom {
     margin-bottom: 40px;
   }
   .video-area .video-item h6 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .footer .footer-area {
     position: relative;
