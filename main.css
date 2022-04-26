@@ -200,7 +200,7 @@ header .navbar #toggle-button:checked + .line .bottom {
   background-color: #000;
   margin: 0 10px !important;
 }
-.slide-container .swiper-slide .silde__image_m {
+.slide-container .swiper-slide .silde__image--mobile {
   display: none;
 }
 
@@ -451,6 +451,9 @@ header .navbar #toggle-button:checked + .line .bottom {
   .common-contents h1 {
     font-size: 45px;
   }
+  .btn h5 {
+    font-size: 19px;
+  }
   header {
     height: 88px;
   }
@@ -478,15 +481,15 @@ header .navbar #toggle-button:checked + .line .bottom {
     left: 14px;
   }
   .swiper .swiper-wrapper .swiper-slide .text-box h2 {
-    font-size: 32px;
+    font-size: 28px;
   }
   .swiper .swiper-wrapper .swiper-slide .text-box p {
-    font-size: 21px;
+    font-size: 18px;
   }
   .slide-container .swiper-slide .silde__image {
     display: none;
   }
-  .slide-container .swiper-slide .silde__image_m {
+  .slide-container .swiper-slide .silde__image--mobile {
     display: block;
     width: 100%;
   }
@@ -494,7 +497,7 @@ header .navbar #toggle-button:checked + .line .bottom {
     flex-direction: column;
   }
   .overview-area .overview-item .derc {
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 0;
     margin-bottom: 24px;
     line-height: 1.6;
@@ -503,10 +506,10 @@ header .navbar #toggle-button:checked + .line .bottom {
     flex-direction: column;
   }
   .stories-area .stories-item .contents-box h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .stories-area .stories-item .contents-box .authorship {
-    font-size: 14px;
+    font-size: 12px;
   }
   .article-area {
     flex-direction: column;
@@ -515,16 +518,16 @@ header .navbar #toggle-button:checked + .line .bottom {
     height: auto;
   }
   .article-area .article-item .contents-box h6 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .article-area .article-item .contents-box .derc {
-    font-size: 14px;
+    font-size: 12px;
   }
   .archive-area {
     flex-direction: column;
   }
   .archive-area .archive-item .derc {
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 0;
   }
   .archive-area .btn-group .btn {
@@ -535,7 +538,7 @@ header .navbar #toggle-button:checked + .line .bottom {
     width: 100%;
   }
   .archive-area .btn-group .btn h5 {
-    font-size: 21px;
+    font-size: 19px;
   }
   .video-area {
     flex-direction: column;
@@ -545,6 +548,9 @@ header .navbar #toggle-button:checked + .line .bottom {
   }
   .video-area .video-item h6 {
     font-size: 28px;
+  }
+  .videos .common-contents .btn h5 {
+    font-size: 19px;
   }
   .footer .footer-area {
     position: relative;
