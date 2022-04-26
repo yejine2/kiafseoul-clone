@@ -1,6 +1,6 @@
 /* COMMON */
 body {
-  font-family: "TT Commons", "Noto Sans", "Noto Sans KR", "Helvetica Neue",
+  font-family: 'TT Commons', 'Noto Sans', 'Noto Sans KR', 'Helvetica Neue',
     sans-serif;
   line-height: 1.5;
   box-sizing: border-box;
@@ -257,6 +257,7 @@ header .navbar #toggle-button:checked + .line .bottom {
 /* ARTICLE */
 .article-area {
   display: flex;
+  width: 100%;
 }
 .article-area .article-item {
   width: 100%;
@@ -400,11 +401,11 @@ header .navbar #toggle-button:checked + .line .bottom {
   color: #999;
 }
 .footer .footer-area .footer-right .info a::after {
-  content: "|";
+  content: '|';
   padding: 4px;
 }
 .footer .footer-area .footer-right .info a:last-child:after {
-  content: "";
+  content: '';
 }
 .footer .footer-area .footer-right .container {
   width: 100%;
