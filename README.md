@@ -1,4 +1,12 @@
-# 📌 자신이 원하는 사이트 레이아웃 클론
+<a href="https://endearing-eclair-c6b858.netlify.app/">
+  <img src="https://api.netlify.com/api/v1/badges/bc438b2e-9f12-4bbe-987e-d36fcef20a2f/deploy-status">
+</a>
+
+#  Kiaf SEOUL layout Clone Coding
+
+## The challenge
+
+### 자신이 원하는 사이트 레이아웃 클론
 
 - 과제 기한:
   - 과제 수행 기간: 2022년 04월 14일(목) 19시 ~ 2022년 04월 28일(목) 19시
@@ -7,14 +15,15 @@
   - 원하는 사이트(페이지)를 자유롭게 선택하고 레이아웃을 클론 코딩하세요.
   - 평소에 도전해 보고 싶었거나 혹은 자신의 수준에 맞는 사이트(페이지)를 선택하세요.
 
-## 필수 요구사항
+
+### 필수 요구사항
 
 - [x] 정리된 README.md 파일을 제공하세요!
 - [x] 결과와 비교할 수 있는 선택 사이트의 주소를 명시하세요!
 - [x] 제출 프로젝트에 확인 가능한 HTML, CSS 파일이 모두 있어야 합니다!
 - [x] 브라우저에서 정상적으로 출력돼야 합니다!
 
-## 선택 요구사항
+### 선택 요구사항
 
 - [x] 시멘틱 태그를 최대한 활용해보세요.
 - [x] 레거시 코드 활용보단 최신의 CSS Flex와 Grid를 활용해보세요.
@@ -25,12 +34,6 @@
 - [x] BEM 방법론을 도입해보세요.
 
 
----
-<a href="https://endearing-eclair-c6b858.netlify.app/">
-  <img src="https://api.netlify.com/api/v1/badges/bc438b2e-9f12-4bbe-987e-d36fcef20a2f/deploy-status">
-</a>
-
-#  Kiaf SEOUL layout Clone Coding
 
 ## 선정 이유
 
@@ -73,8 +76,6 @@
 GSAP(The GreenSock Animation Platform)에서 제공하는 애니메이션 라이브러리로 페이지 상단 이동 버튼을 쉽게 구현할 수 있었습니다.
 
 ![scrollto](https://user-images.githubusercontent.com/85099612/165447159-54aa1af9-2b83-4211-95d6-619edd2bbdb2.gif)
-
-
 
 
 ## Review
